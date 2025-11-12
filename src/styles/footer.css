@@ -1,0 +1,7 @@
+footer{
+    margin-top: auto; /* Empurra o footer para o final */
+    background-color: #ffffff; /* Cor de fundo do footer */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+}

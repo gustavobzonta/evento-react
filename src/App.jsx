@@ -3,7 +3,7 @@ import Header from "./componentes/Header";
 import Footer from "./componentes/Footer";
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
-import "./styles.css";
+import "./styles/styles.css";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 
         {/* Menu de navegação */}
         <nav>
-          <Link to="/">Início</Link> | <Link to="/sobre">Sobre</Link>
+          
         </nav>
 
 

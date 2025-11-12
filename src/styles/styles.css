@@ -12,10 +12,13 @@
   /* Define as cores, fonte e alinhamento geral */
   body {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    background-color: #f5f7fa; /* Fundo cinza-claro */
+    background-color: #ffffff; /* Fundo cinza-claro */
     color: #333;               /* Cor principal do texto */
     text-align: center;        /* Centraliza textos genéricos */
     min-height: 100vh;         /* Garante altura mínima de tela cheia */
+    font-size: 25px;         /* Tamanho de fonte legível */
+    display: flex;
+    flex-direction: column;
   }
   
   /* Container principal da aplicação */
@@ -35,7 +38,7 @@
     background-color: #0072bb;          /* Azul padrão SENAI */
     color: white;                       /* Texto branco */
     padding: 20px 0;                    /* Espaçamento interno */
-    font-size: 1.6em;                   /* Tamanho de texto maior */
+    font-size: 22px;                   /* Tamanho de texto maior */
     font-weight: bold;                  /* Texto em negrito */
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Sombra abaixo do cabeçalho */
   }
@@ -53,7 +56,7 @@
   }
   
   .menu-principal a:hover {
-    text-decoration: underline; /* Sublinha ao passar o mouse */
+    text-decoration: none; /* Sublinha ao passar o mouse */
   }
   
   /* ===============================
@@ -105,11 +108,9 @@
      =============================== */
   
   .card-evento {
-    background-color: white;               /* Fundo branco */
+    background-color: rgb(255, 255, 255);               /* Fundo branco */
     border-radius: 10px;                   /* Cantos arredondados */
     padding: 20px;
   
   }
-  
-  
   
