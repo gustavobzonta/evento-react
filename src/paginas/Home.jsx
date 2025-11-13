@@ -9,9 +9,9 @@ function Home() {
       <p> Aqui você fica por dentro dos eventos.</p>
 
       {/*Exibindo os eventos*/}
-      <Evento nome="festa do tuio" data="14/11/2025" local="Auditório" />
-      <Evento nome="aniversario da angelica" data="19/11/2025" local="Arena Condá" />
-      <Evento nome="aniversario da angelica 2" data="22/11/2025" local="Unoesc" />
+      <Evento nome="festa do tuio" data="14/11/2025" local="nao sei aonde casa do tuio" />
+      <Evento nome="aniversario da angelica" data="19/11/2025" local="Arena strike" />
+      <Evento nome="aniversario da angelica 2" data="22/11/2025" local="casa da gege" />
       </div>
     </main>
   );

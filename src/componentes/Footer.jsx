@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <footer>
-      <p> Arthur Sangiogo- {ano} </p>
+      <p> gustavo zonta- {ano} </p>
     </footer>
   );
 }
